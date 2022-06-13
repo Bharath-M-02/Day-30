@@ -1,0 +1,12 @@
+mysql> create table Mentor (m_name varchar(30), m_sub varchar(50), m_contactNo bigint);
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> insert into Mentor values ('Aarav', 'HTML, CSS, JS', 8653429017), 
+    -> ('Mohammed', 'ReactJS, MySQL', 8983421786), 
+    -> ('Vihaan', 'MongoDB, NodeJS', 8109672845),
+    -> ('Aditya', 'JS, ReactJS', 7109837562),
+    -> ('Arjun', 'NodeJS', 8109845362);
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> 
