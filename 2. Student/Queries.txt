@@ -1,0 +1,17 @@
+mysql> create table Student (s_id int, s_name varchar(30), s_sex char(1), s_contactNo bigint, s_email varchar(30), s_batchNo varchar(10));
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> insert into Student values (1, 'Bharath', 'M', 8216452094, 'bharath@gmail.com', 'B32WE');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> insert into Student values (2, 'Manoj', 'M', 7109342561, 'manoj@gmail.com', 'B31WD'), 
+(3, 'Suresh', 'M', 9106431673, 'suresh@gmail.com', 'B32WE'), 
+(4, 'Akshay', 'M', 8165409185, 'akshay@gmail.com', 'B30WD'), 
+(5, 'Nandha Kumar', 'M', 9175308164, 'nandhakumar@gmail.com', 'B35WE'), 
+(6, 'Likith', 'M', 9105278192, 'likith@gmail.com', 'B30WD'), 
+(7, 'Kavya', 'F', 7108274017, 'kavya@gmail.com', 'B30WD'), 
+(8, 'Sneha', 'F', 9105381945, 'sneha@gmail.com', 'B33WE'), 
+(9, 'Santhosh', 'M', 8106432518, 'santhosh@gmail.com', 'B32WE'), 
+(10, 'Shwetha', 'F', 9521754823, 'shwetha@gmail.com', 'B30WD');
+Query OK, 9 rows affected (0.03 sec)
+Records: 9  Duplicates: 0  Warnings: 0
