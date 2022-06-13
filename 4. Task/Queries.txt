@@ -1,0 +1,23 @@
+mysql> create table Task (day smallint, t_name varchar(1000), t_link varchar(1000));
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> insert into Task values (1, 'Write a blog on Difference between HTTP1.1 vs HTTP2, Write a blog about objects and its internal representation in Javascript', 
+'https://docs.google.com/document/d/1QznT1zM4mI6dG0TODx5Xjs1GquMoSHO3xZ1USDnVM-w/edit?usp=sharing');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into Task values (4, 'Use the rest countries API url -> https://restcountries.eu/rest/v2/all and display all the country flags in console, 
+Use the same rest countries and print all countries name, region, sub region and population', 
+'https://docs.google.com/document/d/1cNDeT0CKJwqXYDeSIlmJVhx_t4AFvR_0Ypa1cp2rhJk/edit?usp=sharing');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into Task values (7, 'Write a "person" class to hold all the details, write a class to calculate uber price.', 
+'https://docs.google.com/document/d/12wAX28odaaCy4IWdlX3QQ3LOrBB3UXLsMD99X1Ve1Uc/edit?usp=sharing');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into Task values (8, 'Practice Task', 'https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into Task (day, t_name) values (11, 'Guvi FB Page Design');
+Query OK, 1 row affected (0.03 sec)
+
+mysql>
