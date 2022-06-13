@@ -1,14 +1,14 @@
-mysql> create table Batch (b_no varchar(10), b_timings varchar(20), b_type char(2));
+mysql> create table Batch (b_no varchar(10), b_timings varchar(20));
 Query OK, 0 rows affected (0.14 sec)
 
-mysql> insert into Batch values ('31', '10:00AM - 1:00PM', 'WE'),
-    -> ('30', '5:00PM - 8:00PM', 'WD'),
-    -> ('32', '2:00PM - 5:00PM', 'WE'),
-    -> ('32', '5:00PM - 7:30PM', 'WD'),
-    -> ('30', '10:00AM - 1:00PM', 'WE'),
-    -> ('33', '10:00AM - 1:00PM', 'WE'),
-    -> ('35', '2:00PM - 5:00PM', 'WE');
-Query OK, 7 rows affected (0.02 sec)
+mysql> insert into Batch values ('B31WE', '10:00AM - 1:00PM'),
+    -> ('B30WE', '5:00PM - 8:00PM'),
+    -> ('B32WE', '2:00PM - 5:00PM'),
+    -> ('B32WD', '5:00PM - 7:30PM'),
+    -> ('B30WE', '10:00AM - 1:00PM'),
+    -> ('B33WE', '10:00AM - 1:00PM'),
+    -> ('B35WE', '2:00PM - 5:00PM');
+Query OK, 7 rows affected (0.01 sec)
 Records: 7  Duplicates: 0  Warnings: 0
 
-mysql> 
+mysql>
